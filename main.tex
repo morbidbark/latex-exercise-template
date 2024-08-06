@@ -1,14 +1,16 @@
 \documentclass{article}
 
-\usepackage{fancyhdr}
+\usepackage{amsmath}
 \usepackage{authoraftertitle}
+\usepackage[shortlabels]{enumitem}
+\usepackage{fancyhdr}
 
-\title{Exercises}
+\title{\textbf{Title}\\Subtitle}
 \author{Ryan Sampson}
 
 \pagestyle{fancy}
 \fancyhead[L]{\MyAuthor}
-\fancyhead[C]{\MyTitle}
+\fancyhead[C]{Short Titlte}
 \fancyhead[R]{\today}
 \fancyfoot[C]{\thepage}
 
@@ -16,11 +18,12 @@
 \newcommand{\solution}{\subsection*{Solution}}
 
 \begin{document}
+
 \maketitle
+
 \problem{1}
 \[ 1 + 1 = ? \]
 \solution
 \[ 1 + 1 = 2 \]
-\newpage
-Goodbye
+
 \end{document}
